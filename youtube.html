@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>YouTube.com Clone</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/video.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+    </head>
+ 
+    <body>
+        <header class="header">
+            <div class="left-section">
+                <img class="hamburger-manu" src="icons/navbar-icon.png" alt="">
+                <img class="youtube-logo" src="icons/youtube-logo.png" alt="">
+            </div>
+            <div class="middle-section">
+                <input class="search-bar" type="text" placeholder="Search">
+                <button class="search-btn">
+                    <img id="search-icon" src="icons/search-icon.png" alt="">
+                    <div class="tooltip">Search</div>
+                </button>
+                <!-- Put position absolute
+                inside position relative -->
+                <button class="voice-mic-btn">
+                    <img id="voice-icon" src="icons/mic-icon.png" alt="">
+                    <div class="tooltip">
+                        Search with your voice
+                    </div>
+                </button>
+            </div>
+            <div class="right-section">
+                <div class="upload-icon-container">
+                    <img class="create-video-icon" src="icons/create-video-icon.png" alt="">
+                    <div class="tooltip">
+                        Create
+                    </div>
+                </div>
+                
+                <div class="notifications-icons-container">
+                    <div class="notification-container">
+                        <img class="notification-icon" src="icons/notification-icon.png" alt="">
+                        <div class="tooltip">
+                            Notifications
+                        </div>
+                    </div>
+                    
+                    <div class="notifications-conut">2</div>
+                </div>
+                <img class="user-pic-icon" src="channel-picture/user-pic.jpg" alt="">
+            </div>
+            
+        </header>
+        
+        <nav class="sidebar">
+            <div class="sidebar-link">
+                <img src="icons/sidebar-icons/svg-home-icon.svg" alt="">
+                <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/sidebar-icons/svg-shorts-icon.svg" alt="">
+                <div>Shorts</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/sidebar-icons/svg-video-icon.svg" alt="">
+                <div>Subscriptions</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/sidebar-icons/svg-movie-icon.svg" alt="">
+                <div>Originals</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/sidebar-icons/svg-playback-icon.svg" alt="">
+                <div>Playback</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/sidebar-icons/svg-play-icon.svg" alt="">
+                <div>Movies</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/sidebar-icons/svg-time-icon.svg" alt="">
+                <div>Save</div>
+            </div>
+        </nav>
+        
+        <main>
+            <section class="video-grid">
+                <div class="video-preview">
+                    <div class="thumbnail-raw">
+                        <img class="thumbnail" src="pictuers/hq720.webp" alt="">
+                        <div class="video-time">14:20</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="profile-dp">
+                            <img class="dp" src="channel-picture/Design-pattern.jpg" alt="">
+                        </div>
+                        <div class="video-info">
+                            <p class="title-video">
+                                Nelly - Hot in Herre Official Release (Sickick Remix!!!)
+                            </p>
+                            <p class="artist">SickickMusic &#x2713;</p>
+                            <p class="stat">
+                                151K views &#183; 6 months ago 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="video-preview">
+                    <div class="thumbnail-raw">
+                        <img class="thumbnail" src="pictuers/hq721.webp" alt="">
+                        <div class="video-time">4:20</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="profile-dp">
+                            <img class="dp" src="channel-picture/user-pic.jpg" alt="">
+                        </div>
+                        <div class="video-info">
+                            <p class="title-video">
+                                Singleton Pattern - Design Pattern (ep 6)
+                            </p>
+                            <p class="artist">Christopher Dhravi &#x2713;</p>
+                            <p class="stat">
+                                225K views &#183; 6 years ago 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="video-preview">
+                    <div class="thumbnail-raw">
+                        <img class="thumbnail" src="pictuers/chill-out.webp" alt="">
+                        <div class="video-time">1:20</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="profile-dp">
+                            <img class="dp" src="channel-picture/profile-pic.jpg" alt="">
+                        </div>
+                        <div class="video-info">
+                            <p class="title-video">
+                                Nelly - Hot in Herre Official Release (Sickick Remix!!!)
+                            </p>
+                            <p class="artist">SickickMusic &#x2713;</p>
+                            <p class="stat">
+                                151K views &#183; 6 months ago 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="video-preview">
+                    <div class="thumbnail-raw">
+                        <img class="thumbnail" src="pictuers/flex-grid.webp" alt="">
+                        <div class="video-time">16:20</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="profile-dp">
+                            <img class="dp" src="channel-picture/Design-pattern.jpg" alt="">
+                        </div>
+                        <div class="video-info">
+                            <p class="title-video">
+                                Singleton Pattern - Design Pattern (ep 6)
+                            </p>
+                            <p class="artist">Christopher Dhravi &#x2713;</p>
+                            <p class="stat">
+                                225K views &#183; 6 years ago 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="video-preview">
+                    <div class="thumbnail-raw">
+                        <img class="thumbnail" src="pictuers/manipur.webp" alt="">
+                        <div class="video-time">6:20</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="profile-dp">
+                            <img class="dp" src="channel-picture/profile-pic.jpg" alt="">
+                        </div>
+                        <div class="video-info">
+                            <p class="title-video">
+                                Manipur Women Parade Video: मणिपुर की महिलाओं के निर्वस्त्र वायरल वीडियो पर SC का एक्शन 
+                            </p>
+                            <p class="artist">SickickMusic &#x2713;</p>
+                            <p class="stat">
+                                151K views &#183; 6 months ago 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="video-preview">
+                    <div class="thumbnail-raw">
+                        <img class="thumbnail" src="pictuers/trumph.webp" alt="">
+                        <div class="video-time">98:20</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="profile-dp">
+                            <img class="dp" src="channel-picture/Design-pattern.jpg" alt="">
+                        </div>
+                        <div class="video-info">
+                            <p class="title-video">
+                                Singleton Pattern - Design Pattern (ep 6)
+                            </p>
+                            <p class="artist">ABPLIVE &#x2713;</p>
+                            <p class="stat">
+                                225K views &#183; 6 years ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="video-preview">
+                    <div class="thumbnail-raw">
+                        <img class="thumbnail" src="pictuers/trumph.webp" alt="">
+                        <div class="video-time">98:20</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="profile-dp">
+                            <img class="dp" src="channel-picture/Design-pattern.jpg" alt="">
+                        </div>
+                        <div class="video-info">
+                            <p class="title-video">
+                                Singleton Pattern - Design Pattern (ep 6)
+                            </p>
+                            <p class="artist">ABPLIVE &#x2713;</p>
+                            <p class="stat">
+                                225K views &#183; 6 years ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="video-preview">
+                    <div class="thumbnail-raw">
+                        <img class="thumbnail" src="pictuers/trumph.webp" alt="">
+                        <div class="video-time">98:20</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="profile-dp">
+                            <img class="dp" src="channel-picture/Design-pattern.jpg" alt="">
+                        </div>
+                        <div class="video-info">
+                            <p class="title-video">
+                                Singleton Pattern - Design Pattern (ep 6)
+                            </p>
+                            <p class="artist">ABPLIVE &#x2713;</p>
+                            <p class="stat">
+                                225K views &#183; 6 years ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="video-preview">
+                    <div class="thumbnail-raw">
+                        <img class="thumbnail" src="pictuers/trumph.webp" alt="">
+                        <div class="video-time">98:20</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="profile-dp">
+                            <img class="dp" src="channel-picture/Design-pattern.jpg" alt="">
+                        </div>
+                        <div class="video-info">
+                            <p class="title-video">
+                                Singleton Pattern - Design Pattern (ep 6)
+                            </p>
+                            <p class="artist">ABPLIVE &#x2713;</p>
+                            <p class="stat">
+                                225K views &#183; 6 years ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="video-preview">
+                    <div class="thumbnail-raw">
+                        <img class="thumbnail" src="pictuers/trumph.webp" alt="">
+                        <div class="video-time">98:20</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="profile-dp">
+                            <img class="dp" src="channel-picture/Design-pattern.jpg" alt="">
+                        </div>
+                        <div class="video-info">
+                            <p class="title-video">
+                                Singleton Pattern - Design Pattern (ep 6)
+                            </p>
+                            <p class="artist">ABPLIVE &#x2713;</p>
+                            <p class="stat">
+                                225K views &#183; 6 years ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="video-preview">
+                    <div class="thumbnail-raw">
+                        <img class="thumbnail" src="pictuers/trumph.webp" alt="">
+                        <div class="video-time">98:20</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="profile-dp">
+                            <img class="dp" src="channel-picture/Design-pattern.jpg" alt="">
+                        </div>
+                        <div class="video-info">
+                            <p class="title-video">
+                                Singleton Pattern - Design Pattern (ep 6)
+                            </p>
+                            <p class="artist">ABPLIVE &#x2713;</p>
+                            <p class="stat">
+                                225K views &#183; 6 years ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="video-preview">
+                    <div class="thumbnail-raw">
+                        <img class="thumbnail" src="pictuers/trumph.webp" alt="">
+                        <div class="video-time">98:20</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="profile-dp">
+                            <img class="dp" src="channel-picture/Design-pattern.jpg" alt="">
+                        </div>
+                        <div class="video-info">
+                            <p class="title-video">
+                                Singleton Pattern - Design Pattern (ep 6)
+                            </p>
+                            <p class="artist">ABPLIVE &#x2713;</p>
+                            <p class="stat">
+                                225K views &#183; 6 years ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
